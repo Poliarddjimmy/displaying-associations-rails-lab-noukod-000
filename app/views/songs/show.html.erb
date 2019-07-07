@@ -1,4 +1,4 @@
-<h1><%= link_to @song.to_s, song_path(@song) %></h1>
+<h1><%= link_to @song.to_s, song_path(@song) if @song%></h1>
 
 <!-- Add code here to link to the post's category. -->
 <h3>Artist: <%= link_to @song.artist.name, artist_path(@song.artist) if @song.artist %></h3>
