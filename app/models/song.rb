@@ -3,6 +3,6 @@ class Song < ActiveRecord::Base
 
   def to_s
     #{}"#{Song.artist.name} - #{Song.title}"
-    self.artist.name + '-' + self.title
+    self.artist.name + ' - ' + self.title
   end
 end
