@@ -1,4 +1,4 @@
-class AddArtistIdToSongs < ActiveRecord::Migration[5.2]
+class AddArtistIdToSongs < ActiveRecord::Migration[4.2]
   def change
     add_column :songs, :artist_id, :integer
   end
